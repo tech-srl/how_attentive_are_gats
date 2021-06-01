@@ -1,6 +1,6 @@
 # How Attentive are Graph Attention Networks?
 
-This repository is the official implementation of [How Attentive are Graph Attention Networks?](anonymized). 
+This repository is the official implementation of [How Attentive are Graph Attention Networks?](https://arxiv.org/pdf/2105.14491.pdf). 
 
 ![alt text](images/fig1.png "Figure 1 from the paper")
 
