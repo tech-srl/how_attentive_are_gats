@@ -9,7 +9,7 @@ This repository is the official implementation of [How Attentive are Graph Atten
 
 [https://pytorch-geometric.readthedocs.io/en/latest/modules/nn.html#torch_geometric.nn.conv.GATv2Conv](https://pytorch-geometric.readthedocs.io/en/latest/modules/nn.html#torch_geometric.nn.conv.GATv2Conv)
 
-and also is [in this main directory](gat2.py), 
+and also is [in this main directory](gatv2_conv.py), 
 
 The rest of the code for reproducing the experiments in the paper will be made publicly available.
 
