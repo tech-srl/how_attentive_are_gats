@@ -15,6 +15,16 @@ DGL implementation can be found [here](gatv2_conv_DGL.py) as well.
 
 The rest of the code for reproducing the experiments in the paper will be made publicly available.
 
+# Citation
+[How Attentive are Graph Attention Networks?](https://arxiv.org/pdf/2105.14491.pdf)
+```
+@article{brody2021attentive,
+  title={How Attentive are Graph Attention Networks?},
+  author={Brody, Shaked and Alon, Uri and Yahav, Eran},
+  journal={arXiv preprint arXiv:2105.14491},
+  year={2021}
+}
+```
 
 
 
