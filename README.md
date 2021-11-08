@@ -4,6 +4,11 @@ This repository is the official implementation of [How Attentive are Graph Atten
 
 ![alt text](images/fig1.png "Figure 1 from the paper")
 
+**The GATv2 layer is now available as part of DGL library!** 
+
+[https://docs.dgl.ai/en/latest/api/python/nn.pytorch.html#gatv2conv](https://docs.dgl.ai/en/latest/api/python/nn.pytorch.html#gatv2conv)
+
+and also in [here](gatv2_conv_DGL.py).
 
 **The GATv2 layer is now available as part of PyTorch Geometric library!** 
 
@@ -11,7 +16,6 @@ This repository is the official implementation of [How Attentive are Graph Atten
 
 and also is [in this main directory](gatv2_conv_PyG.py).
 
-DGL implementation can be found [here](gatv2_conv_DGL.py) as well.
 
 The rest of the code for reproducing the experiments in the paper will be made publicly available.
 
