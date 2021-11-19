@@ -4,18 +4,21 @@ This repository is the official implementation of [How Attentive are Graph Atten
 
 ![alt text](images/fig1.png "Figure 1 from the paper")
 
-**The GATv2 layer is now available as part of DGL library!** 
-
-[https://docs.dgl.ai/en/latest/api/python/nn.pytorch.html#gatv2conv](https://docs.dgl.ai/en/latest/api/python/nn.pytorch.html#gatv2conv)
-
-and also in [here](gatv2_conv_DGL.py).
-
-**The GATv2 layer is now available as part of PyTorch Geometric library!** 
+**GATv2 is now available as part of PyTorch Geometric library!** 
 
 [https://pytorch-geometric.readthedocs.io/en/latest/modules/nn.html#torch_geometric.nn.conv.GATv2Conv](https://pytorch-geometric.readthedocs.io/en/latest/modules/nn.html#torch_geometric.nn.conv.GATv2Conv)
 
 and also is [in this main directory](gatv2_conv_PyG.py).
 
+**GATv2 is now available as part of DGL library!** 
+
+[https://docs.dgl.ai/en/latest/api/python/nn.pytorch.html#gatv2conv](https://docs.dgl.ai/en/latest/api/python/nn.pytorch.html#gatv2conv)
+
+and also in [this repository](gatv2_conv_DGL.py).
+
+**GATv2 is now available as part of Google's TensorFlow GNN library!** 
+
+[https://github.com/tensorflow/gnn/blob/main/tensorflow_gnn/docs/api_docs/python/gnn/keras/layers/GATv2.md](https://github.com/tensorflow/gnn/blob/main/tensorflow_gnn/docs/api_docs/python/gnn/keras/layers/GATv2.md)
 
 The rest of the code for reproducing the experiments in the paper will be made publicly available.
 
