@@ -20,6 +20,11 @@ and also in [this repository](gatv2_conv_DGL.py).
 
 [https://github.com/tensorflow/gnn/blob/main/tensorflow_gnn/docs/api_docs/python/gnn/keras/layers/GATv2.md](https://github.com/tensorflow/gnn/blob/main/tensorflow_gnn/docs/api_docs/python/gnn/keras/layers/GATv2.md)
 
+# DictionaryLookup
+
+The code for reproducing the DictionaryLookup experiments can be found in the [dictionary_lookup](dictionary_lookup/README.md) directory.
+
+
 The rest of the code for reproducing the experiments in the paper will be made publicly available.
 
 # Citation

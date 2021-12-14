@@ -1,0 +1,8 @@
+attrdict==2.0.1
+torch>=1.7.1
+torch-geometric>=1.7.0
+torch-scatter>=2.0.4
+torch-sparse>=0.6.0
+torchvision
+sklearn
+seaborn
