@@ -31,13 +31,20 @@ python main.py --help
 And see the available flags.
 For example, to train a GATv2 with size=10 and num_heads=1, run:
 ```
-python main.py --task DICTIONARY --size 10 --num_heads 1 --type GAT2 --eval_every 10
+python3 main.py --task DICTIONARY --eval_every 10 --size 10 --num_layers 1 --batch_size 1024 --dim 128 --type GATv2 --stop TEST_NODE --num_heads 1 --save saved_models/gatv2_128_s10.pt
 ```  
 
 Alternatively, to train a GAT with size=10 and num_heads=8, run:
 ```
-python main.py --task DICTIONARY --size 10 --num_heads 8 --type GAT --eval_every 10
+python3 main.py --task DICTIONARY --eval_every 10 --size 10 --num_layers 1 --batch_size 1024 --dim 128 --type GAT --stop TEST_NODE --num_heads 8 --save saved_models/gat_128_s10.pt
 ```
+
+We already trained such GAT and GATv2 models in `saved_models/`, and Figure 1 of the paper can be reproduced by running:
+```
+python3 main.py --load saved_models/gatv2_128_s10.pt --plot 0
+python3 main.py --load saved_models/gat_128_s10.pt --plot 0
+```
+
 
 ## Experiment with other GNN types
 To experiment with other GNN types:

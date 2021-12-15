@@ -257,7 +257,7 @@ class Experiment():
 
 
         plt.setp(ax.get_legend().get_texts(), fontsize=tik_label_size)
-        # plt.subplots_adjust(hspace=0.08, top=0.96, bottom=0.04)
+        plt.subplots_adjust(hspace=0.08, top=0.96, bottom=0.04)
 
         plt.legend(bbox_to_anchor=(0.99, 0.45), loc='right', prop={'size': tik_label_size, }, labelspacing=0.1,
                    borderaxespad=0.,)
