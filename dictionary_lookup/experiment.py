@@ -272,6 +272,8 @@ class Experiment():
         result = np.zeros(shape=(attention_per_edge.shape[-1], self.size, result_y_size))
         for head_idx in range(attention_per_edge.shape[-1]):
             for src, tgt, score in zip(edge_index[0], edge_index[1], attention_per_edge[:,head_idx]):
+                if src == tgt:
+                    continue
                 if tgt >= self.size:
                     continue
                 if src < self.size:

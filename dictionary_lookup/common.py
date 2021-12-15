@@ -48,7 +48,7 @@ class GNN_TYPE(Enum):
                                          nn.Linear(out_dim, out_dim), nn.BatchNorm1d(out_dim), nn.ReLU()))
         elif self is GNN_TYPE.GAT:
             # The output will be the concatenation of the heads, yielding a vector of size out_dim
-            return GATConv(in_dim, out_dim // num_heads, heads=num_heads, add_self_loops=False)
+            return GATConv(in_dim, out_dim // num_heads, heads=num_heads, add_self_loops=True)
         elif self is GNN_TYPE.GATv2:
             return GAT2Conv(in_dim, out_dim // num_heads, heads=num_heads, bias=False, share_weights=True, add_self_loops=False)
 
