@@ -16,7 +16,7 @@ to `GAT2`, and run according to the official instructions to run multiple experi
 ![alt text](images/table1.png "Table 1 from the paper")
 ![alt text](images/table4.png "Table 4 from the paper")
 
-From this point in this README, the README is the original README of [https://github.com/microsoft/tf-gnn-samples/](https://github.com/microsoft/tf-gnn-samples/) .
+**From this point in this README, the README is the original README of [https://github.com/microsoft/tf-gnn-samples/](https://github.com/microsoft/tf-gnn-samples/) .**
 
 ------------------------
 
