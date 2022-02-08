@@ -1,8 +1,8 @@
 # VarMisuse and QM9
 This is a modified version of the repository [https://github.com/microsoft/tf-gnn-samples/](https://github.com/microsoft/tf-gnn-samples/),
-where we added GATv2 and DPGAT and ran the same experiments.
+where we added GATv2 and ran the same experiments.
 
-To use GATv2 and DPGAT, run according to the instruction below [running](running), and use `GAT2` or `DotProdGAT` as the GNN type.
+To use GATv2, run according to the instruction below [running](running), and use `GAT2` as the GNN type.
 For example:
 ```
 python train.py --run-test GAT2 qm9 --data-path data/qm9
@@ -11,7 +11,7 @@ python train.py --run-test GAT2 qm9 --data-path data/qm9
 
 Alternatively, change the GNN type here: 
 [run_qm9_benchs.py#L19](run_qm9_benchs.py#L19) and here [run_qm9_benchs.py#L19](run_varmisuse_benchs.py#L19) 
-to one of `GAT2` or `DotProdGAT`, and run according to the official instructions to run multiple experiments.
+to `GAT2`, and run according to the official instructions to run multiple experiments.
 
 ![alt text](images/table1.png "Table 1 from the paper")
 ![alt text](images/table4.png "Table 4 from the paper")
