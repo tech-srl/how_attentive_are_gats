@@ -63,9 +63,9 @@ Where:
 
 The results of running the above scripts are:
 
-Table 2a:
+Table 1a:
 
-![alt text](images/table2a.png "Table 2a from the paper")
+![alt text](images/table1a.png "Table 1a from the paper")
 
 Table 3:
 
