@@ -176,7 +176,8 @@ class GAT2Conv(nn.Module):
                 feat_dst = self.fc_dst(h_src).view(
                     -1, self._num_heads, self._out_feats)
                 if graph.is_block:
-                    feat_dst = feat_src[:graph.number_of_dst_nodes()]
+                    feat_dst = feat_dst[:graph.number_of_dst_nodes()] 
+                    h_dst = h_dst[:graph.number_of_dst_nodes()]
             graph.srcdata.update({'el': feat_src})# (num_src_edge, num_heads, out_dim)
             graph.dstdata.update({'er': feat_dst})
             graph.apply_edges(fn.u_add_v('el', 'er', 'e'))
